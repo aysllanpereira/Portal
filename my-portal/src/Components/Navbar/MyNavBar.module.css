@@ -1,0 +1,36 @@
+
+/* estilização da barra de navegação */
+.navbar {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: #0a2a66;
+    padding: 15px 30px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav_links {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav_links li a:hover {
+    color: #f39c12;
+}

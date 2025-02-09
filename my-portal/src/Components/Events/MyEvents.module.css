@@ -1,0 +1,59 @@
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    margin-left: 12px;
+}
+
+.listaEventos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.evento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detalhes h3 {
+    margin-bottom: 8px;
+}
+
+.linha {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 8px 0;
+}
+
+.tipo {
+    background-color: #eee;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.botao {
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #e65c2f;
+}

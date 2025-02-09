@@ -1,0 +1,16 @@
+
+.div {
+    margin: 35px;
+}
+
+p {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #DCDCDC;
+    margin: 20px 0;
+}

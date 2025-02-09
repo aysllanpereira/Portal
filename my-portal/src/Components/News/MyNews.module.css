@@ -1,0 +1,37 @@
+h1 {
+    margin: 35px;
+}
+
+.div_prin {
+    display: flex;
+    margin: 35px;
+}
+
+.div_img img {
+    border-radius: 8px;
+}
+
+.div_text {
+    margin-left: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    width: 85px;
+    height: 25px;
+    background-color: rgb(233, 123, 45);
+    border-radius: 8px;
+    border: none;
+    margin: 35px;
+    margin-top: -15px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(255, 150, 70);
+    transform: scale(1.1);
+}
