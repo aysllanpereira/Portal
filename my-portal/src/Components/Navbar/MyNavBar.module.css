@@ -34,3 +34,12 @@
 .nav_links li a:hover {
     color: #f39c12;
 }
+
+li {
+    color: white;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #f39c12;
+}
