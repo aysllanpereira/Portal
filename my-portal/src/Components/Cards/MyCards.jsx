@@ -1,5 +1,5 @@
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import styles from '../Cards/MyCards.module.css';
+import Styles from '../Cards/MyCards.module.css';
 
 const MyCard = () => {
     const cards = [
@@ -9,12 +9,12 @@ const MyCard = () => {
     ];
 
     return (
-        <div className={styles.mycards}>
+        <div className={Styles.mycards}>
             {cards.map((card) => (
-                <div key={card.id} className={styles.card}>
+                <div key={card.id} className={Styles.card}>
                     <i className={`bi ${card.icon}`}></i>
                     <p>{card.title}</p>
-                    <a href={card.link}>
+                    <a href={card.link} className={Styles.a}>
                         Go <i className="bi bi-arrow-right"></i>
                     </a>
                 </div>

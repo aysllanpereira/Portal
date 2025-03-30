@@ -19,19 +19,21 @@ p {
     font-size: 18px;
 }
 
-button {
-    width: 85px;
-    height: 25px;
-    background-color: rgb(233, 123, 45);
-    border-radius: 8px;
-    border: none;
+.button {
     margin: 35px;
-    margin-top: -15px;
-    cursor: pointer;
-    color: white;
 }
 
-button:hover {
+.button button {
+    background: rgb(233, 123, 45);
+    color: white;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.button button:hover {
     background-color: rgb(255, 150, 70);
     transform: scale(1.1);
+    transition: 1.3s;
 }

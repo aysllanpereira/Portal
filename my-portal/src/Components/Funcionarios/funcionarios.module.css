@@ -1,0 +1,72 @@
+
+h1 {
+    padding: 45px;
+}
+
+form {
+    width: 100vw;
+    padding: 15px;
+}
+
+.input {
+    flex-grow: 2;
+    min-width: 250px;
+}
+
+.select {
+    flex-grow: 0.5;
+    max-width: 250px;
+}
+
+input, select {
+    height: 35px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 55px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    background: #DCDCDC;
+    border-radius: 8px;
+    width: calc(33.33% - 20px);
+    min-width: 200px;
+    padding: 15px;
+}
+
+.card hr {
+    width: 100px;
+    margin: 5px;
+}
+
+.card p {
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.button button {
+    background: rgb(233, 123, 45);
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.button button:hover {
+    background: rgba(233, 123, 45, 0.8);
+    transform: scale(1.1);
+    transition: 3s;
+}

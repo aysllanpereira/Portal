@@ -1,7 +1,12 @@
 import Imagem from '../Navbar/Img/navbar.jpg';
 import styles from '../Navbar/MyNavBar.module.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const Navbar = () => {
+
+    const navigate = useNavigate();
+
     return (
         <nav className={styles.navbar}>
             <div className="logo">
@@ -9,8 +14,12 @@ const Navbar = () => {
             </div>    
         
             <ul className={styles.nav_links}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Funcionários</a></li>
+                <li><a onClick={() => {
+                    navigate("/home");
+                }}>Home</a></li>
+                <li><a onClick={() => {
+                    navigate("/funcionarios");
+                }}>Funcionários</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Eventos</a></li>
                 <li><a href="#">Pesquisas</a></li>
