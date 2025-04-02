@@ -34,7 +34,7 @@ const MyEvents = () => {
                     <div key={evento.id} className={styles.evento}>
                         <div className={styles.detalhes}>
                             <h3>{evento.nome}</h3>
-                            <hr className={styles.linha}/>
+                            {/* <hr className={styles.linha}/> */}
                             <p><strong>Starts at: </strong>{evento.data}</p>
                             <p><strong>Location: </strong>{evento.local}</p>
                             <p><strong>Type: </strong><span className={styles.tipo}>{evento.tipo}</span></p>

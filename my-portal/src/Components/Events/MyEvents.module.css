@@ -25,16 +25,26 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.detalhes {
+    display: flex;
+    gap: 55px;
+}
+
 .detalhes h3 {
     margin-bottom: 8px;
 }
 
-.linha {
+.detalhes p {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .linha {
     border: none;
     height: 1px;
     background-color: #ccc;
     margin: 8px 0;
-}
+} */
 
 .tipo {
     background-color: #eee;
