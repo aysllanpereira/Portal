@@ -33,7 +33,8 @@ input, select {
 }
 
 .card {
-    background: #DCDCDC;
+    background: #F8F8F8;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.329);
     border-radius: 8px;
     width: calc(33.33% - 20px);
     min-width: 200px;
